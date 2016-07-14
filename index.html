@@ -1,18 +1,142 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YT</title>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
+          type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900|Source+Code+Pro:500' rel='stylesheet'
+          type='text/css'>
+    <link href='/dist/css/style.css' rel='stylesheet'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+          integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+</head>
+<body class="main-template">
+<!--<div class="sideways meta"></div>-->
+<div class="main-container">
+    <header>
+        <div class="links left">
+			<span>
+				<a href="/">home</a>
+                <a href="/blog">blog</a>
+			    <a href="/photography">photography</a>
+			</span>
+        </div>
+    </header>
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <div id="content" class="wrapper">
+        <div class='post-header'><a href='#'><h1>Yasir Taher</h1></a>
+            <ul class="social-links">
+                <li><a class="facebook" href="https://www.facebook.com/taheryasir/" target="_blank"><i
+                        class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a class="twitter" href="https://www.twitter.com/yasirtaher/" target="_blank"><i
+                        class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a class="linkedin" href="http://www.linkedin.com/in/ytaher" target="_blank"><i
+                        class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a class="github" href="https://instagram.com/taheryasir" target="_blank"><i class="fa fa-instagram"
+                                                                                                 aria-hidden="true"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div class='post-body'>
+            <div class="avatar">
+                <img src="https://avatars1.githubusercontent.com/u/2821424?v=3&s=460"
+                     alt="YT">
+            </div>
+            <p>I am an engineer at <a href="http://www.unipro.co.jp">UNIPRO, Inc.</a> on the WebApp</a> team.</p>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+            <p>I hail from Dhaka, Bangladesh but for now live in Tokyo, Japan. Other than usual things I am interested
+                in
+                <span class="tag"> #walking</span> <span class="tag"> #running</span> <span class="tag"> #cycling</span>
+                <span class="tag"> #reading</span> <span class="tag"> #anime</span>
+                <span class="tag"> #animation</span> <span class="tag"> #comics</span> and <span class="tag">#photography</span>.
+            </p>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
+            <!--<h2 id="contact-history">Contact &amp; History</h2>-->
+
+            <!--<p><strong>Extracurricular</strong></p>-->
+            <!--<ul>-->
+            <!--<li></li>-->
+            <!--<li></li>-->
+            <!--<li></li>-->
+            <!--</ul>-->
+            <p><strong>Work</strong></p>
+            <ul>
+                <li><strong>UNIPRO, Inc.</strong>
+                    <small>Engineer, 2016-present</small>
+                    <a href="http://unipro.co.jp" target="_blank"><i class="fa fa-external-link"></i></a></li>
+                <li><strong>Agency Delta, LLC.</strong>
+                    <small>Full Stack Dev, 2015-2016</small>
+                    <a href="http://agencydelta.com" target="_blank"><i class="fa fa-external-link"></i></a></li>
+            </ul>
+            <p><strong>Education</strong></p>
+            <ul>
+                <li><strong>East West University</strong>,
+                    <small>Computer Science and Engineering</small>
+                    <a href="http://ewubd.edu" target="_blank"><i class="fa fa-external-link"></i></a></li>
+            </ul>
+
+            <!--<p><strong>Projects</strong></p>-->
+            <!--<hr>-->
+            <!--<div class="project">-->
+                <!--<img src="http://static1.squarespace.com/static/56208bb9e4b0c05fdc3861ab/t/56773a03a976af9a4e3fb9e5/1450654332528/FS.png?format=500w">-->
+                <!--<div class="details">-->
+                    <!--<h2>Project 1</h2>-->
+                    <!--<p>lorem lorem lorem lorem</p>-->
+                <!--</div>-->
+            <!--</div>-->
+
+        </div>
+    </div>
+
+    <!--<div id="content" class="wrapper">-->
+        <!--<p><strong>Skills</strong></p>-->
+        <!--<p><span class="tag"> #walking</span>,<span class="tag"> #running</span>,<span class="tag"> #cycling</span>,-->
+            <!--<span class="tag"> #reading</span>,<span class="tag"> #anime</span>,-->
+            <!--<span class="tag"> #animation</span>,<span class="tag"> #comics</span> and <span-->
+                    <!--class="tag">#photography</span>-->
+        <!--</p>-->
+    <!--</div>-->
+
+    <!--<div id="content" class="wrapper">-->
+        <!--<p><strong>Work</strong></p>-->
+        <!--<ul>-->
+            <!--<li><strong>UNIPRO, Inc.</strong>-->
+                <!--<small>Engineer, 2016-present</small>-->
+                <!--<a href="http://unipro.co.jp" target="_blank"><i class="fa fa-external-link"></i></a></li>-->
+            <!--<li><strong>Agency Delta, LLC.</strong>-->
+                <!--<small>Full Stack Dev, 2015-2016</small>-->
+                <!--<a href="http://agencydelta.com" target="_blank"><i class="fa fa-external-link"></i></a></li>-->
+        <!--</ul>-->
+        <!--<p><strong>Education</strong></p>-->
+        <!--<ul>-->
+            <!--<li><strong>East West University</strong>,-->
+                <!--<small>Computer Science and Engineering</small>-->
+                <!--<a href="http://ewubd.edu" target="_blank"><i class="fa fa-external-link"></i></a></li>-->
+        <!--</ul>-->
+
+    <!--</div>-->
+
+    <footer>
+        <p class="about-foot meta">
+            WebApp developer in Japan from Bangladesh.
+        </p>
+        <ul>
+            <li><a href="/blog">Blog</a></li>
+        </ul>
+        <ul>
+            <!--<li><a href="">Work</a></li>-->
+            <li><a href="/photography">Photography</a></li>
+        </ul>
+        <ul>
+            <li><a href="/" class="green"><strong>Home</strong></a></li>
+        </ul>
+    </footer>
+
 </div>
+</body>
+</html>
