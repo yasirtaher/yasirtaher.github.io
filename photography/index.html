@@ -23,7 +23,7 @@
         <div class="links left">
 			<span>
 				<a href="/">home</a>
-                <a href="#">blog</a>
+                <a href="/blog">blog</a>
 			    <a href="/photography">photography</a>
 			</span>
         </div>
@@ -47,7 +47,7 @@
             WebApp developer in Japan from Bangladesh.
         </p>
         <ul>
-            <li><a href="#">Blog</a></li>
+            <li><a href="/blog">Blog</a></li>
         </ul>
         <ul>
             <li><a href="/photography"><strong>Photography</strong></a></li>
@@ -65,7 +65,7 @@
     var access_token = '606902921.9d237ee.7668be82524c4a439074273eeb765f02';
     var clientid = '9d237ee3f0fc4a1dbc30a46aae76e776'; // learn how to obtain it below
     var userid = 606902921; // User ID - get it in source HTML of your Instagram profile, use special services or look the next example :)
-    var num_photos = 20; // how much photos do you want to get
+    var num_photos = 18; // how much photos do you want to get
 
     $.ajax({
         url: 'https://api.instagram.com/v1/users/' + userid + '/media/recent',

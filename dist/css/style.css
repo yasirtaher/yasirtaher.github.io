@@ -656,19 +656,28 @@ a.button:hover {
         display: none;
     }
 
+    .instagram-grid{
+        /*width: 765px !important;*/
+    }
+
     .frame-square {
-        width: 33.3333% !important;
+        /*width: 220px !important;*/
+        height:220px !important;
     }
 }
 
 @media (max-width: 750px) {
     #main-content {
-        padding: 68px;
+        /*padding: 68px;*/
+    }
+
+    .instagram-grid{
+        /*width: 652px !important;*/
     }
 
     .frame-square {
-        width: 33.33% !important;
-        height: 200px !important;
+        /*width: 170px !important;*/
+        height: 160px !important;
     }
 }
 
@@ -720,15 +729,15 @@ a.button:hover {
     }
 
     .frame-square {
-        width: 50% !important;
-        height: 200px !important;
+        /*width: 120px !important;*/
+        height: 120px !important;
     }
 }
 
 @media (max-width: 450px) {
     .frame-square {
-        width: 100% !important;
-        height: 250px !important;
+        /*width: 100px !important;*/
+        height: 100px !important;
     }
 }
 
@@ -762,10 +771,10 @@ a.button:hover {
     display: inline-block;
     vertical-align: top;
     /*padding: 10px;*/
-    width: 25%;
-    height: 250px;
-    /*margin-right: .5em;*/
-    /*margin-bottom: .3em;*/
+    width: 31.33%;
+    height: 290px;
+    margin-right: .3em;
+    margin-bottom: .3em;
 }
 
 .crop {
@@ -880,6 +889,12 @@ a.button:hover {
     height: 100%;
 }
 
+.instagram-grid{
+    /*width: 895px;*/
+    margin: 0 auto;
+    padding: 0px 12% 0;
+    width: calc(100% - 24%);
+}
 .instagram-grid .frame-square .crop p {
     position: absolute;
     top: 0;
