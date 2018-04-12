@@ -62,8 +62,7 @@
 
 <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script type="text/javascript">
-    var access_token = '606902921.9d237ee.7668be82524c4a439074273eeb765f02';
-    var clientid = '9d237ee3f0fc4a1dbc30a46aae76e776'; // learn how to obtain it below
+    var access_token = '606902921.c3134cf.a6f7c800a56f42ebb878f3ab7b920954';
     var userid = 606902921; // User ID - get it in source HTML of your Instagram profile, use special services or look the next example :)
     var num_photos = 18; // how much photos do you want to get
 
@@ -73,7 +72,7 @@
         type: 'GET',
         data: {access_token: access_token, count: num_photos},
         success: function (data) {
-            console.log(data);
+            // console.log(data);
             for (x in data.data) {
                 $('#photos').append('<div class="frame-square">' +
                         '<div class="crop">' +
